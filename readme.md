@@ -12,9 +12,8 @@
 
 - node.js
 
-```wsl
-    npm init -y
-    npm install get-pixels --save
+```bash
+    npm install
 ```
 
 ## 自定义程序变量
