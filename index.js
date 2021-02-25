@@ -2,8 +2,8 @@
 const fs = require('fs'),
     getPX = require("get-pixels"),
     child_process = require('child_process'),
-    sourceDir = `/mnt/c/Users/37445/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/Assets`,
-    destDir = `/mnt/c/Users/37445/Desktop/wallPapers`; // 执行本程序时 wallPapers 不能存在
+    sourceDir = `C:/Users/37445/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/Assets`
+    destDir = `C:/Users/37445/Desktop/wallPapers`; // 执行本程序时 wallPapers 不能存在
 
 // 遍历目标目录中的文件，改名
 function renameDestFiles() {
