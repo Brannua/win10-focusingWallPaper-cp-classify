@@ -1,4 +1,4 @@
-// in wsl
+// in win10
 const fs = require('fs'),
     getPX = require("get-pixels"),
     child_process = require('child_process'),
